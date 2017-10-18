@@ -1,0 +1,21 @@
+public class Sincronizada{
+  Object obj;
+
+  public Item consumir(){
+    synchronized(obj){
+      ...
+      obj.wait();
+      ...
+    }
+  }
+
+
+  public void producir(Item x){
+    synchronized(obj){
+      ...
+      obj.notify();
+      ...
+    }
+  }
+}
+

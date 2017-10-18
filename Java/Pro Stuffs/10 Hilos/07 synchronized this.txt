@@ -1,0 +1,16 @@
+public class Sincronizada{
+
+  public synchronized Item consumir(){
+    ...
+    wait();  //es lo mismo que escribir this.wait()
+    ...
+  }
+
+
+  public synchronized void producir(Item x){
+    ...
+    notify();  //es lo mismo que escribir this.notify()
+    ...
+  }
+}
+

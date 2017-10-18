@@ -1,0 +1,16 @@
+programa principal inicio //pseudolenguaje-pseudocódigo
+    //regar mi plantita
+    mientras(le falta agua a mi plantita) inicio
+        conseguir una cubeta
+        encontrar un grifo
+        colocar cubeta debajo del grifo
+        abrir el grifo
+        hacer inicio
+            dejar que caiga agua en la cubeta
+        fin mientras(le falta agua a la cubeta);
+        cerrar el grifo
+        llevar cubeta hacia plantita
+        vaciar agua de la cubeta sobre plantita
+    fin
+    //plantita al día
+fin

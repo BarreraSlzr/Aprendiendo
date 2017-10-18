@@ -1,0 +1,11 @@
+programa principal//main
+inicio
+  i,j:entero
+  i:=1
+  j:=10
+  mientras i<=j hacer inicio
+    imprimir i + ". Es bueno el celular en silencio en clase"
+    i:=i+1
+  fin
+  devolver 0
+fin

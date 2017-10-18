@@ -1,0 +1,6 @@
+#ifndef TIPOS_Y_CONSTANTES_H_INCLUDED
+#define TIPOS_Y_CONSTANTES_H_INCLUDED
+
+typedef int tipo_dato;
+
+#endif // TIPOS_Y_CONSTANTES_H_INCLUDED

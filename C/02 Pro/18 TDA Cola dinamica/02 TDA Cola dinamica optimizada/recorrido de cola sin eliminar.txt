@@ -1,0 +1,19 @@
+Cola cola
+posicion p;
+
+-------
+
+if (cola->ant!=cola->post){//no es vacia
+  p=cola->ant->sig;
+  do{
+     //imprimir p->elemento
+  }while(p->sig!=NULL){
+}
+...vs...
+posicion fin=cola->post;
+if (cola->ant!=cola->post){//no es vacia
+  p=cola->ant->sig;
+  do{
+     //imprimir p->elemento
+  }while(p->sig!=fin){
+}

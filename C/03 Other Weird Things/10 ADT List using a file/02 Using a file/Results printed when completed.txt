@@ -1,0 +1,58 @@
+##############################TDA List using files##############################
+Press enter key to continue . . .
+
+Creating Alpha list...
+destroying id=65, name=one
+destroying id=66, name=two
+Printing alpha list...
+id=65, name=one
+id=66, name=two
+Press enter key to continue . . .
+printing first element...
+test:id=65, name=one
+Press enter key to continue . . .
+Printing last element...
+test:id=66, name=two
+Press enter key to continue . . .
+List length is: 2
+Press enter key to continue . . .
+Creating Beta list...
+destroying id=67, name=three
+destroying id=68, name=four
+Printing beta list...
+id=67, name=three
+id=68, name=four
+Press enter key to continue . . .
+printing first element...
+test:id=67, name=three
+Press enter key to continue . . .
+Printing last element...
+test:id=68, name=four
+Press enter key to continue . . .
+List length is: 2
+Press enter key to continue . . .
+Concatenating lists...
+Press enter key to continue . . .
+Printing alpha_beta list...
+id=65, name=one
+id=66, name=two
+id=67, name=three
+id=68, name=four
+Press enter key to continue . . .
+printing first element...
+test:id=65, name=one
+Press enter key to continue . . .
+Printing last element...
+test:id=68, name=four
+Press enter key to continue . . .
+List length is: 4
+Press enter key to continue . . .
+Removing List alpha_beta
+destroying ADTListArrayBasedDAO
+Removing List beta
+destroying ADTListArrayBasedDAO
+Removing List alpha
+destroying ADTListArrayBasedDAO
+
+Process returned 0 (0x0)   execution time : 16.530 s
+Press any key to continue.

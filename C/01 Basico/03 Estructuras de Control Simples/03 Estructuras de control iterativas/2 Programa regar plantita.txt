@@ -1,0 +1,16 @@
+int main(){
+    //regar mi plantita
+    while(le falta agua a mi plantita){
+        conseguir una cubeta
+        encontrar un grifo
+        colocar cubeta debajo del grifo
+        abrir el grifo
+        do{
+            dejar que caiga agua en la cubeta
+        }while(le falta agua a la cubeta);
+        cerrar el grifo
+        llevar cubeta hacia plantita
+        vaciar agua de la cubeta sobre plantita
+    }
+    //plantita al día
+}

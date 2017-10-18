@@ -1,0 +1,7 @@
+programa principal//main
+inicio
+  i:entero
+  desde i:=1 hasta 10 hacer inicio
+    imprimir i+ ". Es bueno el celular en silencio en clase"
+  fin
+fin

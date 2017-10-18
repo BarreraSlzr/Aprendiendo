@@ -1,0 +1,33 @@
+
+
+
+regar plantita{
+  encontrar una cubeta
+  encontrar un grifo
+  while(plantita le falta agua){
+    colocar la cubeta abajo del grifo
+    try{
+      abrir el grifo
+      esperar a que se llene la cubeta
+      cerrar el grifo
+      tomar la cubeta
+      llevar la cubeta hacia la plantita
+      vaciar el contenido de la cubeta sobre la plantita
+    }catch(GrifoNoSePuedeAbrirException e){
+      localizar otro grifo //incluye descartar el grifo actual
+    }catch(NoHayAguaException e){
+      cerrar el grifo      //para que no se tire agua cuando ya tenga su tinaco
+      localizar otro grifo //incluye descartar el grifo actual
+    }catch(SeCaeLaCubetaException e){
+      secar el agua derramada donde no está la plantita
+      //el grifo sera el mismo que el anterior
+    }finally{
+      //todo lo que necesito hacer haya o no habido excepciones
+      /*asi continue en el metodo actual o se lance fuera el
+        control por lanzar otra Excepcion dentro de catch
+        para no continuar más con la subrutina regarPlantita,
+        o sea, lo que siguiera del while ya no se ejecutaría*/
+    }
+  }
+  //hacer otras cosas después de regar a la plantita
+}

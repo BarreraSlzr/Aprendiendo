@@ -1,0 +1,24 @@
+//operaciones para obtener una p posición
+p=l.primero();
+
+p=l.localiza(9);
+
+p=l.fin()
+
+p=l.siguiente(p);
+
+p=l.anterior(p);
+
+//************************
+//y antes de solicitar algo con una p posición
+if (p!=l.fin()){
+   x=l.recupera(p);
+}
+
+//para imprimir una lista
+p=l.primero();
+while(p!=l.fin()){
+  x=l.recupera(p);
+  imprimir x
+  p=l.siguiente(p);
+}

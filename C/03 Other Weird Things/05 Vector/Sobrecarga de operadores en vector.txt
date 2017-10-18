@@ -1,0 +1,12 @@
+int elementos[10]
+int* elementos
+
+vector<string> elementos
+
+elementos[5]="hola"
+elementos.fijaDatoPosicion(5,"hola");
+
+vector<string>* elementos
+
+(*elementos)[5]="hola"
+

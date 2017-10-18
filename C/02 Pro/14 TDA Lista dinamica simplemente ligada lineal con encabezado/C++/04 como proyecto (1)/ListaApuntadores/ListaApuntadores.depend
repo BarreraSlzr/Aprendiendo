@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1391274311 source:c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\lista.cpp
+	"Lista.h"
+
+1391273848 c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\lista.h
+	<iostream>
+	"Tipos_y_Constantes.h"
+	"util.h"
+
+1390238584 c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\tipos_y_constantes.h
+
+1391274376 c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\util.h
+
+1391274033 source:c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\main.cpp
+	<iostream>
+	"Lista.h"
+
+1391274342 source:c:\users\luis alberto\desktop\test\eda\ejemplos eda\13 tda lista dinamica simplemente ligada lineal con encabezado\c++\03 como proyecto\listaapuntadores\util.cpp
+	<iostream>
+	<time.h>
+	<stdio.h>
+	"util.h"
+

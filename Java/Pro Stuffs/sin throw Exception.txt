@@ -1,0 +1,22 @@
+class UtilArchivo{
+
+  public static File copiaArchivo(File arch){
+    if (!arch.exists())
+      return null
+    //mas instrucciones si el archivo existe
+    //devolver un File
+  }
+}
+
+public class ManejadorArchivos{
+
+  public void hacerCopias(){
+    ...
+    File archivoDestino=UtilArchivo.copiaArchivo(archivoOrigen);
+    if (archivoDestino!=null){
+      //hacer algo con archivoDestino
+    }
+    else //accion correctiva
+  }
+}
+

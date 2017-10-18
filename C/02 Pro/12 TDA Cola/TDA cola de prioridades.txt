@@ -1,0 +1,22 @@
+int main(){
+  Cola p1,p2,p3;
+
+  titulo();
+  while(continuarPrograma()){
+    capturarTrabajos();
+    while(!p1.estaVacia()){
+      x=p1.desencola();
+      imprimir "realizando trabajo "+x
+    }
+    capturarTrabajos();
+    while(p1.estaVacia() && !p2.estaVacia()){
+      x=p2.desencola();
+      imprimir "realizando trabajo "+x
+    }
+    capturarTrabajos();
+    while(p1.estaVacia() && p2.estaVacia() && !p3.estaVacia()){
+      x=p3.desencola();
+      imprimir "realizando trabajo "+x
+    }
+  }
+}

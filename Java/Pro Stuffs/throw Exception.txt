@@ -1,0 +1,32 @@
+class NoCopiaArchivoException extends Exception{
+
+  public NoCopiaArchivoException(...){
+    ...
+  }
+}
+
+class UtilArchivo{
+
+  public static File copiaArchivo(File arch) throws NoCopiaArchivoException{
+    if (arch.exists()){
+      //hacer copia de archivo y genera un File
+    }
+    else throw new NoCopiaArchivoException(..);
+    //mas instrucciones que no se ejecutarian si lanza MiException
+    //devolver un File
+  }
+}
+
+public class ManejadorArchivos{
+
+  public void hacerCopias(){
+    ...
+    try{
+´     File archivoDestino=UtilArchivo.copiaArchivo(archivoOrigen);
+      //hacer algo con archivoDestino
+    }catch(NoCopiaArchivoException e){
+      //archivoDestino no se pudo crear, acción correctiva
+    }
+  }
+}
+

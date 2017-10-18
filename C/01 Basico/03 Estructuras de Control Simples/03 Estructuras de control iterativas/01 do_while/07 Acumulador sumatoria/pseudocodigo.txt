@@ -1,0 +1,17 @@
+TOTAL_VUELTAS:=5
+programa principal//main
+inicio
+  sumatoria:entero
+  i,entrada:entero
+  i:=0
+  sumatoria:=0
+  entrada:=10
+  hacer inicio
+    sumatoria:=sumatoria+entrada
+    i:=i+1
+  fin
+  mientras i<TOTAL_VUELTAS
+  imprime "i " + i
+  imprime "sumatoria " + sumatoria
+  devolver 0
+fin

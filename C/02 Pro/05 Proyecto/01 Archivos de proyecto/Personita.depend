@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1391711694 source:c:\users\luis alberto\desktop\proy\personita\main.cpp
+	<iostream>
+	"Persona.h"
+
+1391711601 c:\users\luis alberto\desktop\proy\personita\persona.h
+

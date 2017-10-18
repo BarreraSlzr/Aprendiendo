@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1412272413 source:c:\users\luis alberto\desktop\eda\lista\main.cpp
+	<iostream>
+	<Alumno.h>
+
+1412272461 c:\users\luis alberto\desktop\eda\lista\include\alumno.h
+	<iostream>
+
+1412272333 source:c:\users\luis alberto\desktop\eda\lista\src\alumno.cpp
+	"Alumno.h"
+
